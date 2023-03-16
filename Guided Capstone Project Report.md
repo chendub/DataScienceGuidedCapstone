@@ -4,7 +4,7 @@ The Ski Resort Data originally had 27 feature columns and 330 unique entries tha
 
 During exploratory data analysis, data on the ski resort market for each state in the US was gathered to help decipher the relationship between state and ticket price. Then, principle component analysis was performed. Looking at the distribution of the states and their average ticket price based on the first and second principle components which explained 77.2% of variance, there isn’t a very clear pattern between state and ticket price. Going forward, we might try dropping the state column altogether and build a price model that treats all the resort data in different state the same.
 
-![graph](images/percentexplained.png)
+![graph](images/PCA.png)
 
 For the rest of the numeric features, a correlation heat map was generated. A few features seem to have reasonable correlation to our target feature, ‘AdultWeekend’. They include: ‘fastQuads’, ‘Runs’, ‘Snow Making_ac’, ’vertical_drop’, and ‘total_chairs’. Among the newly added state summary features, ‘resort_night_skiing_state_ratio’ has the best correlation with ticket price.
 
